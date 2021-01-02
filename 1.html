@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*兼容最佳，IE7以上都能用，IE7及以下都会出现问题*/
+		body,html{
+			height: 100%;
+			margin: 0;
+		}
+		.box{
+			width: 100%;
+			height: 100%;
+			position: relative;
+			background-color: rgba(0,0,255,0.5);
+			margin: 0;
+		}
+		.content{
+			width: 40px;
+			height: 140px;
+			background-color: rgba(0,255,0,0.5);
+			position: absolute;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="content">aa</div>
+	</div>
+</body>
+</html>
